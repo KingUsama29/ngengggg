@@ -106,10 +106,18 @@ h6,
     color: var(--primary);
 }
 
+.carousel-image{
+    height: 100vh;
+}
+
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px 15px;
     }
+}
+
+.container-carousel{
+    margin-bottom: 90px;
 }
 
 .carousel-caption {
@@ -130,6 +138,10 @@ h6,
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
+    }
+
+    .container-carousel {
+        margin-bottom: 0px;
     }
 }
 
@@ -436,9 +448,9 @@ fa-newspaper::before{
 }
 .text-title{
     position: relative;
-    border-bottom: 4px solid rgba(219, 223, 232, 0.9);
+    border-bottom: 4px solid var(--secondary);
     padding-bottom: 0.5rem;
-    width: 100%;
+    width: 100%;    
     
 }
 .text-title::after{
@@ -449,5 +461,50 @@ fa-newspaper::before{
     right: 0;
     left: 0;
     top: 100%;
-    width: 7rem;
+    width: 12rem;
+}
+.testimoni-title{
+    position: relative;
+    border-bottom: 4px solid var(--secondary);
+    padding-bottom: 0.5rem;
+    width: 100%;
+    width: 40%;
+}
+
+
+/* tambahan */
+
+@media screen and (max-width:576px) {
+    .carousel-image{
+        height: 45vh;
+    }
+}
+
+.side-berita{
+    font-size: 1em;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.side-list-berita{
+    color: #000;
+}
+.text-berita{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.testimoni-image{
+    border-radius: 100%;
+    width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+}
+.star{
+    color: #ffc83e;
+}
+.font-contact{
+    font-size: 0.9em;
+    color: #000;
 }
