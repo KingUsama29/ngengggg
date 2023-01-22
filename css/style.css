@@ -571,3 +571,11 @@ text-decoration: none;
         font-size: 0.8em !important;
     }
 }
+@media (min-width: 280px) {
+    .mb-title{
+        margin-bottom: 10px !important;
+    }    
+    .mt-icon{
+        margin-top: 10px ;
+    }
+}
