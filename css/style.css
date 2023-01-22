@@ -109,6 +109,9 @@ h6,
 .carousel-image{
     height: 100vh;
 }
+.carousel-image-detail{
+    height: 60vh;
+}
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
@@ -146,13 +149,13 @@ h6,
 }
 
 .page-header {
-    height: 400px;
-    margin-bottom: 90px;
+    height: auto;
+    /* margin-bottom: 90px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
+    background: linear-gradient(rgba(247, 125, 10, .7), rgba(28, 30, 50, .9)), url(../img/carousel-3.jpg);
     background-attachment: fixed;
 }
 
@@ -507,4 +510,64 @@ fa-newspaper::before{
 .font-contact{
     font-size: 0.9em;
     color: #000;
+}
+.icon-kontak{
+    width: 40px;
+    height: 40px;
+}
+.icon-kontak-produk{
+    width: 33px;
+    height: 33px;
+}
+.stay-connected{
+    font-size: 1.2em;
+}
+.foot-search{
+    /* width: 360px; */
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.search-button{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    /* width: 80px; */
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: #fff;
+}
+.bg-primary-contact-1{
+    background-color: rgba(247, 125, 10, .8);
+}
+.bg-primary-contact-2{
+    background-color: rgba(247, 125, 10, .7);
+}
+.detail-text{
+    font-family: var(--font-family-sans-serif);
+}
+td{
+    padding-left: 0px !important;
+}
+.text-indent{
+    text-indent: 20px;
+}
+.yt-frame{
+    height: 300px;
+}
+.no-line{
+text-decoration: none;
+}
+.no-line:hover{
+    text-decoration: none;
+}
+@media(max-width: 280px) {
+    .font-galaxy-fold{
+        font-size: 0.8em !important;
+    }
 }
