@@ -481,6 +481,9 @@ fa-newspaper::before{
     .carousel-image{
         height: 45vh;
     }
+    .carousel-image-detail{
+        height: 45vh;
+    }
 }
 
 .side-berita{
